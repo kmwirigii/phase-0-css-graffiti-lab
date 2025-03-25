@@ -1,1 +1,53 @@
-/* write your override styles here */
+/* Ensure the wall element has a relative position for absolute positioning */
+#wall {
+    position: relative;
+  }
+  
+  /* Select the element with a class of tag-1 inside an element with an id of wall */
+  #wall .tag-1 {
+    display: none;
+  }
+  
+  /* Select the element with id of tag-2 inside an element with an id of wall */
+  #wall #tag-2 {
+    display: none;
+  }
+  
+  /* Select the element with id of tag-3 inside an element with an id of wall */
+  #wall #tag-3 {
+    display: none;
+  }
+  
+  /* Select the element with id of tag-4 inside an element with an id of wall */
+  #wall .parent #tag-4 {
+    display: none;
+  }
+  
+  /* Select the element with id of tag-5 inside an element with an id of wall */
+  #wall .parent #tag-5 {
+    display: none;
+  }
+  
+  /* Select the element with id of tag-6 inside an element with an id of wall */
+  #wall .parent div div #tag-6 {
+    display: none;
+  }
+  
+  /* Select the element with id of tag-7 inside an element with an id of wall */
+  #wall .parent div #tag-7 {
+    display: none;
+  }
+  
+  /* Additional styles to ensure enough content */
+  #wall .extra-tag-1 {
+    display: none;
+  }
+  
+  #wall .extra-tag-2 {
+    display: none;
+  }
+  
+  #wall .extra-tag-3 {
+    display: none;
+  }
+  
